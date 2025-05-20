@@ -1,0 +1,1686 @@
+{
+  "base_de_datos": "SIS",
+  "tablas": [
+    {
+      "nombre_tabla": "dbo.pge_dep_departamentos",
+      "descripcion": "Catálogo de Dep departamentos",
+      "columnas": [
+        {
+          "nombre_columna": "dep_codigo",
+          "descripcion": "Campo Dep codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "dep_codpai",
+          "descripcion": "Campo Dep codpai",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "dep_nombre",
+          "descripcion": "Campo Dep nombre",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "dep_codusr_registra",
+          "descripcion": "Campo Dep codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "dep_ip_registra",
+          "descripcion": "Campo Dep ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "dep_fecha_registra",
+          "descripcion": "Campo Dep fecha registra",
+          "tipo_dato": "object"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.pge_dpr_det_prd",
+      "descripcion": "Catálogo de Dpr det prd",
+      "columnas": [
+        {
+          "nombre_columna": "dpr_codigo",
+          "descripcion": "Campo Dpr codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "dpr_codprd",
+          "descripcion": "Campo Dpr codprd",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "dpr_nombre",
+          "descripcion": "Campo Dpr nombre",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "dpr_codpai",
+          "descripcion": "Campo Dpr codpai",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "dpr_codgen",
+          "descripcion": "Campo Dpr codgen",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "dpr_edad_minima",
+          "descripcion": "Campo Dpr edad minima",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "dpr_edad_maxima",
+          "descripcion": "Campo Dpr edad maxima",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "dpr_prima",
+          "descripcion": "Campo Dpr prima",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "dpr_estado",
+          "descripcion": "Campo Dpr estado",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "dpr_codusr_registra",
+          "descripcion": "Campo Dpr codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "dpr_ip_registra",
+          "descripcion": "Campo Dpr ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "dpr_fecha_registra",
+          "descripcion": "Campo Dpr fecha registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "estado",
+          "descripcion": "Campo Estado",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventana",
+          "descripcion": "Campo Ventana",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventanasd",
+          "descripcion": "Campo Ventanasd",
+          "tipo_dato": "object"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.pge_etn_etnia",
+      "descripcion": "Catálogo de Etn etnia",
+      "columnas": [
+        {
+          "nombre_columna": "etn_codigo",
+          "descripcion": "Campo Etn codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "etn_nombre",
+          "descripcion": "Campo Etn nombre",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "etn_codusr_registra",
+          "descripcion": "Campo Etn codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "etn_ip_registra",
+          "descripcion": "Campo Etn ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "etn_fecha_registra",
+          "descripcion": "Campo Etn fecha registra",
+          "tipo_dato": "object"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.pge_gen_genero",
+      "descripcion": "Catálogo de Gen genero",
+      "columnas": [
+        {
+          "nombre_columna": "gen_codigo",
+          "descripcion": "Campo Gen codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "gen_nombre",
+          "descripcion": "Campo Gen nombre",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "gen_codusr_registra",
+          "descripcion": "Campo Gen codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "gen_ip_registra",
+          "descripcion": "Campo Gen ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "gen_fecha_registra",
+          "descripcion": "Campo Gen fecha registra",
+          "tipo_dato": "object"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.pge_imf_imfs",
+      "descripcion": "Catálogo de Imf imfs",
+      "columnas": [
+        {
+          "nombre_columna": "imf_codigo",
+          "descripcion": "Campo Imf codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "imf_codred",
+          "descripcion": "Campo Imf codred",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "imf_nombre",
+          "descripcion": "Campo Imf nombre",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "imf_siglas",
+          "descripcion": "Campo Imf siglas",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "imf_contacto",
+          "descripcion": "Campo Imf contacto",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "imf_sector",
+          "descripcion": "Campo Imf sector",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "imf_clasificacion",
+          "descripcion": "Campo Imf clasificacion",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "imf_empleados",
+          "descripcion": "Campo Imf empleados",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "imf_clientes",
+          "descripcion": "Campo Imf clientes",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "imf_logo",
+          "descripcion": "Campo Imf logo",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "imf_ruta_logo",
+          "descripcion": "Campo Imf ruta logo",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "imf_firma",
+          "descripcion": "Campo Imf firma",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "imf_ruta_firma",
+          "descripcion": "Campo Imf ruta firma",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "imf_nombre_firma",
+          "descripcion": "Campo Imf nombre firma",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "imf_estado",
+          "descripcion": "Campo Imf estado",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "imf_codusr_registra",
+          "descripcion": "Campo Imf codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "imf_ip_registra",
+          "descripcion": "Campo Imf ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "imf_fecha_registra",
+          "descripcion": "Campo Imf fecha registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventana",
+          "descripcion": "Campo Ventana",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventanap",
+          "descripcion": "Campo Ventanap",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventanan",
+          "descripcion": "Campo Ventanan",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventanasd",
+          "descripcion": "Campo Ventanasd",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventanas",
+          "descripcion": "Campo Ventanas",
+          "tipo_dato": "object"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.pge_mun_municipios",
+      "descripcion": "Catálogo de Mun municipios",
+      "columnas": [
+        {
+          "nombre_columna": "mun_codigo",
+          "descripcion": "Campo Mun codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "mun_coddep",
+          "descripcion": "Campo Mun coddep",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "mun_nombre",
+          "descripcion": "Campo Mun nombre",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "mun_codusr_registra",
+          "descripcion": "Campo Mun codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "mun_ip_registra",
+          "descripcion": "Campo Mun ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "mun_fecha_registra",
+          "descripcion": "Campo Mun fecha registra",
+          "tipo_dato": "object"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.pge_pai_paises",
+      "descripcion": "Catálogo de Pai paises",
+      "columnas": [
+        {
+          "nombre_columna": "pai_codigo",
+          "descripcion": "Campo Pai codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pai_nombre",
+          "descripcion": "Campo Pai nombre",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pai_gentilicio",
+          "descripcion": "Campo Pai gentilicio",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pai_codusr_registra",
+          "descripcion": "Campo Pai codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pai_ip_registra",
+          "descripcion": "Campo Pai ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pai_fecha_registra",
+          "descripcion": "Campo Pai fecha registra",
+          "tipo_dato": "object"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.pge_prd_productos",
+      "descripcion": "Catálogo de Prd productos",
+      "columnas": [
+        {
+          "nombre_columna": "prd_codigo",
+          "descripcion": "Campo Prd codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "prd_codram",
+          "descripcion": "Campo Prd codram",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "prd_nombre",
+          "descripcion": "Campo Prd nombre",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "prd_nombre_corto",
+          "descripcion": "Campo Prd nombre corto",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "prd_descripcion",
+          "descripcion": "Campo Prd descripcion",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "prd_dias_siniestro",
+          "descripcion": "Campo Prd dias siniestro",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "prd_dias_renovacion",
+          "descripcion": "Campo Prd dias renovacion",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "prd_maximo_beneficiarios",
+          "descripcion": "Campo Prd maximo beneficiarios",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "prd_maximo_designados",
+          "descripcion": "Campo Prd maximo designados",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "prd_tipo",
+          "descripcion": "Campo Prd tipo",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "prd_observaciones",
+          "descripcion": "Campo Prd observaciones",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "prd_estado",
+          "descripcion": "Campo Prd estado",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "prd_codusr_registra",
+          "descripcion": "Campo Prd codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "prd_ip_registra",
+          "descripcion": "Campo Prd ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "prd_fecha_registra",
+          "descripcion": "Campo Prd fecha registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventana",
+          "descripcion": "Campo Ventana",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventana_sd",
+          "descripcion": "Campo Ventana sd",
+          "tipo_dato": "object"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.pge_pro_promotores",
+      "descripcion": "Catálogo de Pro promotores",
+      "columnas": [
+        {
+          "nombre_columna": "pro_codigo",
+          "descripcion": "Campo Pro codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pro_codnis",
+          "descripcion": "Campo Pro codnis",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pro_codsui",
+          "descripcion": "Campo Pro codsui",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pro_codpro_padre",
+          "descripcion": "Campo Pro codpro padre",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "pro_nombre",
+          "descripcion": "Campo Pro nombre",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pro_cargo",
+          "descripcion": "Campo Pro cargo",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pro_estado",
+          "descripcion": "Campo Pro estado",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pro_codusr_registra",
+          "descripcion": "Campo Pro codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pro_ip_registra",
+          "descripcion": "Campo Pro ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pro_fecha_registra",
+          "descripcion": "Campo Pro fecha registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventana",
+          "descripcion": "Campo Ventana",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "codpro_padre",
+          "descripcion": "Campo Codpro padre",
+          "tipo_dato": "int64"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.pge_prt_parentesco",
+      "descripcion": "Catálogo de Prt parentesco",
+      "columnas": [
+        {
+          "nombre_columna": "prt_codigo",
+          "descripcion": "Campo Prt codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "prt_codgen",
+          "descripcion": "Campo Prt codgen",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "prt_nombre",
+          "descripcion": "Campo Prt nombre",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "prt_codusr_registra",
+          "descripcion": "Campo Prt codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "prt_ip_registra",
+          "descripcion": "Campo Prt ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "prt_fecha_registra",
+          "descripcion": "Campo Prt fecha registra",
+          "tipo_dato": "object"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.pge_ram_ramas",
+      "descripcion": "Catálogo de Ram ramas",
+      "columnas": [
+        {
+          "nombre_columna": "ram_codigo",
+          "descripcion": "Campo Ram codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "ram_nombre",
+          "descripcion": "Campo Ram nombre",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ram_codusr_registra",
+          "descripcion": "Campo Ram codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "ram_ip_registra",
+          "descripcion": "Campo Ram ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ram_fecha_registra",
+          "descripcion": "Campo Ram fecha registra",
+          "tipo_dato": "object"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.pge_red_redes",
+      "descripcion": "Catálogo de Red redes",
+      "columnas": [
+        {
+          "nombre_columna": "red_codigo",
+          "descripcion": "Campo Red codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "red_codtpr",
+          "descripcion": "Campo Red codtpr",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "red_codpai",
+          "descripcion": "Campo Red codpai",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "red_nombre",
+          "descripcion": "Campo Red nombre",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "red_estado",
+          "descripcion": "Campo Red estado",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "red_codusr_registra",
+          "descripcion": "Campo Red codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "red_ip_registra",
+          "descripcion": "Campo Red ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "red_fecha_registra",
+          "descripcion": "Campo Red fecha registra",
+          "tipo_dato": "object"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.pge_sui_suc_imf",
+      "descripcion": "Catálogo de Sui suc imf",
+      "columnas": [
+        {
+          "nombre_columna": "sui_codigo",
+          "descripcion": "Campo Sui codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "sui_codimf",
+          "descripcion": "Campo Sui codimf",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "sui_coddep",
+          "descripcion": "Campo Sui coddep",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "sui_codmun",
+          "descripcion": "Campo Sui codmun",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "sui_nombre",
+          "descripcion": "Campo Sui nombre",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "sui_direccion",
+          "descripcion": "Campo Sui direccion",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "sui_telefonos",
+          "descripcion": "Campo Sui telefonos",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "sui_contacto",
+          "descripcion": "Campo Sui contacto",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "sui_estado",
+          "descripcion": "Campo Sui estado",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "sui_codusr_registra",
+          "descripcion": "Campo Sui codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "sui_ip_registra",
+          "descripcion": "Campo Sui ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "sui_fecha_registra",
+          "descripcion": "Campo Sui fecha registra",
+          "tipo_dato": "object"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.pge_tdi_tipo_doc_id",
+      "descripcion": "Catálogo de Tdi tipo doc id",
+      "columnas": [
+        {
+          "nombre_columna": "tdi_codigo",
+          "descripcion": "Campo Tdi codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "tdi_nombre",
+          "descripcion": "Campo Tdi nombre",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "tdi_identificador",
+          "descripcion": "Campo Tdi identificador",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "tdi_codusr_registra",
+          "descripcion": "Campo Tdi codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "tdi_ip_registra",
+          "descripcion": "Campo Tdi ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "tdi_fecha_registra",
+          "descripcion": "Campo Tdi fecha registra",
+          "tipo_dato": "object"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.seg_ben_beneficiarios",
+      "descripcion": "Transacciones de Ben beneficiarios",
+      "columnas": [
+        {
+          "nombre_columna": "ben_codigo",
+          "descripcion": "Campo Ben codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "ben_codpol",
+          "descripcion": "Campo Ben codpol",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "ben_codadp",
+          "descripcion": "Campo Ben codadp",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "ben_codprt",
+          "descripcion": "Campo Ben codprt",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "ben_nombres",
+          "descripcion": "Campo Ben nombres",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ben_apellidos",
+          "descripcion": "Campo Ben apellidos",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ben_codtdi",
+          "descripcion": "Campo Ben codtdi",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "ben_identificacion",
+          "descripcion": "Campo Ben identificacion",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ben_fecha_nacimiento",
+          "descripcion": "Campo Ben fecha nacimiento",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ben_porcentaje",
+          "descripcion": "Campo Ben porcentaje",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "ben_estado_civil",
+          "descripcion": "Campo Ben estado civil",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ben_profesion",
+          "descripcion": "Campo Ben profesion",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ben_nacionalidad",
+          "descripcion": "Campo Ben nacionalidad",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "ben_tipo",
+          "descripcion": "Campo Ben tipo",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ben_estado",
+          "descripcion": "Campo Ben estado",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ben_codusr_registra",
+          "descripcion": "Campo Ben codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "ben_ip_registra",
+          "descripcion": "Campo Ben ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ben_fecha_registra",
+          "descripcion": "Campo Ben fecha registra",
+          "tipo_dato": "object"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.seg_cli_clientes",
+      "descripcion": "Transacciones de Cli clientes",
+      "columnas": [
+        {
+          "nombre_columna": "cli_codigo",
+          "descripcion": "Campo Cli codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "cli_codimf",
+          "descripcion": "Campo Cli codimf",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "cli_codpai",
+          "descripcion": "Campo Cli codpai",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "cli_coddep",
+          "descripcion": "Campo Cli coddep",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "cli_codmun",
+          "descripcion": "Campo Cli codmun",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "cli_codtdi",
+          "descripcion": "Campo Cli codtdi",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "cli_codgen",
+          "descripcion": "Campo Cli codgen",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "cli_codetn",
+          "descripcion": "Campo Cli codetn",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "cli_nombres",
+          "descripcion": "Campo Cli nombres",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "cli_apellidos",
+          "descripcion": "Campo Cli apellidos",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "cli_comarca",
+          "descripcion": "Campo Cli comarca",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "cli_numero_documento",
+          "descripcion": "Campo Cli numero documento",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "cli_fecha_nacimiento",
+          "descripcion": "Campo Cli fecha nacimiento",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "cli_estado_civil",
+          "descripcion": "Campo Cli estado civil",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "cli_sector_rural",
+          "descripcion": "Campo Cli sector rural",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "cli_numero_hijos",
+          "descripcion": "Campo Cli numero hijos",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "cli_numero_dependientes",
+          "descripcion": "Campo Cli numero dependientes",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "cli_escolaridad",
+          "descripcion": "Campo Cli escolaridad",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "cli_ocupacion_primaria",
+          "descripcion": "Campo Cli ocupacion primaria",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "cli_ocupacion_secundaria",
+          "descripcion": "Campo Cli ocupacion secundaria",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "cli_lugar_nacimiento",
+          "descripcion": "Campo Cli lugar nacimiento",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "cli_nacionalidad",
+          "descripcion": "Campo Cli nacionalidad",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "cli_otra_nacionalidad",
+          "descripcion": "Campo Cli otra nacionalidad",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "cli_direccion",
+          "descripcion": "Campo Cli direccion",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "cli_coddep_residencia",
+          "descripcion": "Campo Cli coddep residencia",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "cli_codmun_residencia",
+          "descripcion": "Campo Cli codmun residencia",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "cli_ciudad",
+          "descripcion": "Campo Cli ciudad",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "cli_lab_empresa",
+          "descripcion": "Campo Cli lab empresa",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "cli_lab_profesion",
+          "descripcion": "Campo Cli lab profesion",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "cli_lab_cargo",
+          "descripcion": "Campo Cli lab cargo",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "cli_lab_antiguedad",
+          "descripcion": "Campo Cli lab antiguedad",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "cli_lab_direccion",
+          "descripcion": "Campo Cli lab direccion",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "cli_lab_ciudad",
+          "descripcion": "Campo Cli lab ciudad",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "cli_lab_fuente",
+          "descripcion": "Campo Cli lab fuente",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "cli_con_nombre",
+          "descripcion": "Campo Cli con nombre",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "cli_con_nacionalidad",
+          "descripcion": "Campo Cli con nacionalidad",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "cli_con_codtdi",
+          "descripcion": "Campo Cli con codtdi",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "cli_con_numero_documento",
+          "descripcion": "Campo Cli con numero documento",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "cli_codusr_registra",
+          "descripcion": "Campo Cli codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "cli_ip_registra",
+          "descripcion": "Campo Cli ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "cli_fecha_registra",
+          "descripcion": "Campo Cli fecha registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventana",
+          "descripcion": "Campo Ventana",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventanap",
+          "descripcion": "Campo Ventanap",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventanas",
+          "descripcion": "Campo Ventanas",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "edad",
+          "descripcion": "Campo Edad",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "tel",
+          "descripcion": "Campo Tel",
+          "tipo_dato": "float64"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.seg_pag_pagos",
+      "descripcion": "Transacciones de Pag pagos",
+      "columnas": [
+        {
+          "nombre_columna": "pag_codigo",
+          "descripcion": "Campo Pag codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pag_codsui",
+          "descripcion": "Campo Pag codsui",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pag_codpol",
+          "descripcion": "Campo Pag codpol",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pag_codsui_pago",
+          "descripcion": "Campo Pag codsui pago",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "pag_referencia",
+          "descripcion": "Campo Pag referencia",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "pag_cuota",
+          "descripcion": "Campo Pag cuota",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pag_fecha",
+          "descripcion": "Campo Pag fecha",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pag_monto",
+          "descripcion": "Campo Pag monto",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pag_impuestos",
+          "descripcion": "Campo Pag impuestos",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pag_fecha_pago",
+          "descripcion": "Campo Pag fecha pago",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pag_monto_pago",
+          "descripcion": "Campo Pag monto pago",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "pag_impuestos_pago",
+          "descripcion": "Campo Pag impuestos pago",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "pag_estado",
+          "descripcion": "Campo Pag estado",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pag_comision",
+          "descripcion": "Campo Pag comision",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "pag_codusr_registra",
+          "descripcion": "Campo Pag codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pag_ip_registra",
+          "descripcion": "Campo Pag ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pag_fecha_registra",
+          "descripcion": "Campo Pag fecha registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "fecha_pago",
+          "descripcion": "Campo Fecha pago",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pag_codusr_update",
+          "descripcion": "Campo Pag codusr update",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "pag_fecha_update",
+          "descripcion": "Campo Pag fecha update",
+          "tipo_dato": "float64"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.seg_pol_polizas",
+      "descripcion": "Transacciones de Pol polizas",
+      "columnas": [
+        {
+          "nombre_columna": "pol_codigo",
+          "descripcion": "Campo Pol codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pol_codpom",
+          "descripcion": "Campo Pol codpom",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pol_codimf",
+          "descripcion": "Campo Pol codimf",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pol_codsui",
+          "descripcion": "Campo Pol codsui",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pol_codcli",
+          "descripcion": "Campo Pol codcli",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pol_codasp",
+          "descripcion": "Campo Pol codasp",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pol_codprd",
+          "descripcion": "Campo Pol codprd",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pol_coddpr",
+          "descripcion": "Campo Pol coddpr",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pol_codpro",
+          "descripcion": "Campo Pol codpro",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pol_tipo",
+          "descripcion": "Campo Pol tipo",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pol_fecha",
+          "descripcion": "Campo Pol fecha",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pol_solicitud",
+          "descripcion": "Campo Pol solicitud",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pol_certificado",
+          "descripcion": "Campo Pol certificado",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pol_certificado_original",
+          "descripcion": "Campo Pol certificado original",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "pol_fecha_inicio",
+          "descripcion": "Campo Pol fecha inicio",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pol_fecha_final",
+          "descripcion": "Campo Pol fecha final",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pol_forma_pago",
+          "descripcion": "Campo Pol forma pago",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pol_periodo",
+          "descripcion": "Campo Pol periodo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pol_numero_pagos",
+          "descripcion": "Campo Pol numero pagos",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pol_monto",
+          "descripcion": "Campo Pol monto",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "pol_prima",
+          "descripcion": "Campo Pol prima",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pol_impuestos",
+          "descripcion": "Campo Pol impuestos",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pol_suma_asegurada",
+          "descripcion": "Campo Pol suma asegurada",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "pol_recargo",
+          "descripcion": "Campo Pol recargo",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "pol_prima_mensual",
+          "descripcion": "Campo Pol prima mensual",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "pol_observaciones",
+          "descripcion": "Campo Pol observaciones",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pol_seguros",
+          "descripcion": "Campo Pol seguros",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "pol_estatura",
+          "descripcion": "Campo Pol estatura",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "pol_peso",
+          "descripcion": "Campo Pol peso",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "pol_codpol_origen",
+          "descripcion": "Campo Pol codpol origen",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "pol_codcau_anulacion",
+          "descripcion": "Campo Pol codcau anulacion",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "pol_estado",
+          "descripcion": "Campo Pol estado",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pol_codusr_registra",
+          "descripcion": "Campo Pol codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pol_ip_registra",
+          "descripcion": "Campo Pol ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pol_fecha_registra",
+          "descripcion": "Campo Pol fecha registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "mes",
+          "descripcion": "Campo Mes",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "fecha",
+          "descripcion": "Campo Fecha",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "hoy",
+          "descripcion": "Campo Hoy",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventana",
+          "descripcion": "Campo Ventana",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventanas",
+          "descripcion": "Campo Ventanas",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventana_adenda",
+          "descripcion": "Campo Ventana adenda",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventana_siniestro",
+          "descripcion": "Campo Ventana siniestro",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventana_estado_cuenta",
+          "descripcion": "Campo Ventana estado cuenta",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventana_renovacion",
+          "descripcion": "Campo Ventana renovacion",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventana_cancelacion",
+          "descripcion": "Campo Ventana cancelacion",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventana_anulacion",
+          "descripcion": "Campo Ventana anulacion",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventana_sd",
+          "descripcion": "Campo Ventana sd",
+          "tipo_dato": "object"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.seg_pom_polizas_maestras",
+      "descripcion": "Transacciones de Pom polizas maestras",
+      "columnas": [
+        {
+          "nombre_columna": "pom_codigo",
+          "descripcion": "Campo Pom codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pom_codimf",
+          "descripcion": "Campo Pom codimf",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pom_codprd",
+          "descripcion": "Campo Pom codprd",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pom_poliza",
+          "descripcion": "Campo Pom poliza",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pom_fecha_ini",
+          "descripcion": "Campo Pom fecha ini",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pom_fecha_fin",
+          "descripcion": "Campo Pom fecha fin",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pom_tipo",
+          "descripcion": "Campo Pom tipo",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pom_estado",
+          "descripcion": "Campo Pom estado",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pom_codusr_registra",
+          "descripcion": "Campo Pom codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "pom_ip_registra",
+          "descripcion": "Campo Pom ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "pom_fecha_registra",
+          "descripcion": "Campo Pom fecha registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "tipo",
+          "descripcion": "Campo Tipo",
+          "tipo_dato": "float64"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.seg_sin_siniestros",
+      "descripcion": "Transacciones de Sin siniestros",
+      "columnas": [
+        {
+          "nombre_columna": "sin_codigo",
+          "descripcion": "Campo Sin codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "sin_codpol",
+          "descripcion": "Campo Sin codpol",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "sin_codimf",
+          "descripcion": "Campo Sin codimf",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "sin_codsui",
+          "descripcion": "Campo Sin codsui",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "sin_codcau",
+          "descripcion": "Campo Sin codcau",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "sin_codprt",
+          "descripcion": "Campo Sin codprt",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "sin_codsta",
+          "descripcion": "Campo Sin codsta",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "sin_fecha_siniestro",
+          "descripcion": "Campo Sin fecha siniestro",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "sin_dias_cobertura",
+          "descripcion": "Campo Sin dias cobertura",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "sin_fecha_notificacion",
+          "descripcion": "Campo Sin fecha notificacion",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "sin_referencia",
+          "descripcion": "Campo Sin referencia",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "sin_nombres",
+          "descripcion": "Campo Sin nombres",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "sin_apellidos",
+          "descripcion": "Campo Sin apellidos",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "sin_codtdi",
+          "descripcion": "Campo Sin codtdi",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "sin_descripcion",
+          "descripcion": "Campo Sin descripcion",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "sin_numero_documento",
+          "descripcion": "Campo Sin numero documento",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "sin_email",
+          "descripcion": "Campo Sin email",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "sin_celular",
+          "descripcion": "Campo Sin celular",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "sin_telefono",
+          "descripcion": "Campo Sin telefono",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "sin_extension",
+          "descripcion": "Campo Sin extension",
+          "tipo_dato": "float64"
+        },
+        {
+          "nombre_columna": "sin_direccion_residencia",
+          "descripcion": "Campo Sin direccion residencia",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "sin_codusr_registra",
+          "descripcion": "Campo Sin codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "sin_ip_registra",
+          "descripcion": "Campo Sin ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "sin_fecha_registra",
+          "descripcion": "Campo Sin fecha registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "mes",
+          "descripcion": "Campo Mes",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "fecha",
+          "descripcion": "Campo Fecha",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventana",
+          "descripcion": "Campo Ventana",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventanas",
+          "descripcion": "Campo Ventanas",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "ventanap",
+          "descripcion": "Campo Ventanap",
+          "tipo_dato": "object"
+        }
+      ]
+    },
+    {
+      "nombre_tabla": "dbo.seg_stp_status_pol",
+      "descripcion": "Transacciones de Stp status pol",
+      "columnas": [
+        {
+          "nombre_columna": "stp_codigo",
+          "descripcion": "Campo Stp codigo",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "stp_codpol",
+          "descripcion": "Campo Stp codpol",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "stp_estado",
+          "descripcion": "Campo Stp estado",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "stp_fecha_estado",
+          "descripcion": "Campo Stp fecha estado",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "stp_codusr_registra",
+          "descripcion": "Campo Stp codusr registra",
+          "tipo_dato": "int64"
+        },
+        {
+          "nombre_columna": "stp_ip_registra",
+          "descripcion": "Campo Stp ip registra",
+          "tipo_dato": "object"
+        },
+        {
+          "nombre_columna": "stp_fecha_registra",
+          "descripcion": "Campo Stp fecha registra",
+          "tipo_dato": "object"
+        }
+      ]
+    }
+  ]
+}
